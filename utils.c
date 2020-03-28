@@ -8,7 +8,11 @@
 #include "utils.h"
 
 //TODO
-void* serializar_paquete(t_paquete* paquete, int bytes)
+/*
+ * Recibe un paquete a serializar, y un puntero a un int en el que dejar
+ * el tamaño del stream de bytes serializados que devuelve
+ */
+void* serializar_paquete(t_paquete* paquete, int *bytes)
 {
 
 }
